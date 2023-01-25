@@ -24,5 +24,3 @@ def generate_qr():
 @app.route('/download')
 def download():
     return send_file(path, as_attachment=True)
-
-if __name__ == '__main__':
